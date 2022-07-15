@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Filmes Favoritos</title>
+    <link rel="stylesheet" href="filme.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://cdn.diariodoturismo.com.br/wp-content/uploads/2020/04/filmes_logo.jpg?_gl=1*n0862k*_ga*MTk0MDI3NDA5OC4xNjU3OTEzNTE0*_ga_LEJ96BHQNX*MTY1NzkxMzUxNC4xLjAuMTY1NzkxMzUxNC4w&_ga=2.94317727.302445504.1657913514-1940274098.1657913514" class = "imgfilme">
+        <div class="form">
+    <h1>Meus filmes favoritos</h1>
+    <form id="cadastroRegistro">
+       
+        <div id='id' class="label"></div>
+        
+        <div class="label">
+            <div>Titulo</div>
+            <div>
+                <input id='titulo' type="text"/>
+            </div>
+        </div>
+        
+        <div class="label">
+            <div>Genero</div>
+            <div>
+                <input type="text" id='genero'/>
+            </div>
+        </div>
+            <div>
+                <button id="btnsalvar">Salvar</button>
+            </div>
+
+</form>   
+        <table>
+            <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Titulo</th>
+                        <th>Genero</th>
+                        <th></th>
+                    </tr>
+            </thead>
+            <tbody id="listaRegistrosBody"></tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+    <script src="filme.js"></script>
+  
+</body>
+</html>
